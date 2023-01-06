@@ -160,9 +160,6 @@ logo=("""\033[1;97m
 \33[1;37m----------------------------------------------""")
 def linex():
 	print('\33[1;37m----------------------------------------------')
-loop = 0
-oks = []
-cps = []
 loop=0
 oks=[]
 cps=[]
@@ -189,7 +186,7 @@ def menu():
 				print(logo)
 				
 				linex()
-				print(' Example : /sdcard/NOOB.txt')
+				print(' Example : /sdcard/OPC.txt')
 				linex()
 				file = input(' Put file path\033[1;37m: ')
 				try:
@@ -271,7 +268,7 @@ def menu():
 		
 def mmm(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mMR.NOOB\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
+	sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mCracking\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
@@ -344,7 +341,7 @@ ua_ios = 'Mozilla/5.0 (iPhone, CPU iPhone '+version+'_'+osv+' like Mac OS '+vers
 
 def ffb(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mMR.NOOB\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
+	sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mCracking\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
