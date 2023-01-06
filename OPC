@@ -85,6 +85,8 @@ except Exception as e:
 	
 prox=open('.prox.txt','r').read().splitlines()
 
+uam = open('.messenger.txt', 'r').read().splitlines()
+	
 ugen2=[]
 ugen=[]
 
@@ -157,11 +159,11 @@ logo=("""\033[1;97m
    \x1b[1;97m  88  V888 `8b  d8' `8b  d8' 88   8D 
      VP   V8P  `Y88P'   `Y88P'  Y8888P'
 \33[1;37m----------------------------------------------
-→   Owner      :  MR.NOOB
-→   Facebook   :  RIAZ KHAN
-→   Github     :  RIAZ-143
-→   Tool Type  :  \x1b[1;91mFREE
-\x1b[1;97m→   Version    :  1.1
+[+]   TOOL       :  OCP
+[+]   Facebook   :  PROMISE OKWUDIRE
+[+]   Github     :  CHIDEXZY 
+[+]   Tool Type  :  \x1b[1;91mFREE FOR NOW 
+\x1b[1;97m[+]   Version    :  1.0
 \33[1;37m----------------------------------------------""")
 def linex():
 	print('\33[1;37m----------------------------------------------')
