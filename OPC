@@ -216,7 +216,7 @@ def menu():
 					plist.append(input(f' Put password {i+1}: '))
 				os.system('clear')
 				print(logo)
-				print(' Do you want to Show Checkpoints? (y/n ')
+				print(' Do you want to Show Checkpoints? (y/n) ')
 				linex()
 				cx=input(' Choose: ')
 				if cx in ['y','Y','yes','Yes','1']:
