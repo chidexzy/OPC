@@ -78,7 +78,7 @@ b = '\33[1;96m' # BIRU -
 p = '\x1b[0;34m' # BIRU +
 asu = random.choice([m,k,h,u,b])
 
-prox=open('.prox.txt','r').read().splitlines()
+prox=open('.proxy.txt','r').read().splitlines()
 
 uam = open('.messenger.txt', 'r').read().splitlines()
 	
