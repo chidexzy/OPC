@@ -281,7 +281,7 @@ def mmm(ids,names,passlist):
 		ps2 = last.lower()
 		for fikr in passlist:
 			pas = fikr.replace('First',first).replace('Last',last).replace('first',ps).replace('last',ps2)
-			ua = random.choice(ua_ios)
+			ua = random.choice(awan)
 			ua2 = random.choice(uam)
 			nip=random.choice(prox)
 			proxs= {'http': 'socks5://'+nip}
